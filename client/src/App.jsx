@@ -19,7 +19,7 @@ const App = () => {
           fetchData();
           socket.emit("browse");
         }}
-        className="text-white bg-primary absolute top-80 px-14 py-2 font-extralight text-2xl rounded-full shadow-gray-800 hover:bg-quattro, hover:scale-105 shadow-lg  active:bg-secondary active:scale-95 duration-150  "
+        className="text-white bg-primary px-14 py-2 mb-20 font-extralight text-2xl rounded-full shadow-gray-800 hover:bg-quattro, hover:scale-105 shadow-lg  active:bg-secondary active:scale-95 duration-150  "
       >
         Fetch data
       </button>
